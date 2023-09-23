@@ -83,15 +83,13 @@
     justify-content: center;
     align-items: center;
     min-height: 150px;
+    display: flex;
+    text-wrap: nowrap;
 }
 .main-title h1{
     font-family: 'Neutron';
     font-weight: 200;
     font-size: clamp(40px, 4vw, 60px);
-}
-.title-wrapper{
-    display: flex;
-    text-wrap: nowrap;
 }
 
 .programming-skils-title, .design-skils-title{
